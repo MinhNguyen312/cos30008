@@ -52,13 +52,13 @@ void FibonacciSequence::reset()
 
 FibonacciSequenceIterator FibonacciSequence::begin() const
 {
-	FibonacciSequenceIterator iter(this->getLimit(), 1);
+	FibonacciSequenceIterator iter(fLimit, 1);
 	return iter.begin();	
 }
 
 FibonacciSequenceIterator FibonacciSequence::end() const
 {
-	FibonacciSequenceIterator iter(this->getLimit(),getLimit());
+	FibonacciSequenceIterator iter(fLimit,fLimit);
 	return iter.end();
 }
 
