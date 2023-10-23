@@ -1,0 +1,4 @@
+﻿  Polynomial.cpp
+C:\Users\thien\OneDrive\Desktop\COS30008\Tutorial3\Polynomial.cpp(54,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thien\OneDrive\Desktop\COS30008\Tutorial3\Polynomial.cpp(65,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Tutorial3.vcxproj -> C:\Users\thien\OneDrive\Desktop\COS30008\Tutorial3\x64\Debug\Tutorial3.exe
