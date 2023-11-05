@@ -33,7 +33,8 @@ public:
 
 	List& operator=(const List& aOtherList) {
 		
-		
+		this->~List();
+		fCount = 0;
 		for (Iterator iter = aOtherList.begin(); iter != aOtherList.end(); iter++) {
 			push_back(*iter);
 		}
